@@ -2,48 +2,35 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-lightgrey.svg)](https://github.com/magma-bangkit/VirtuHire-ResumeNER)
 
-OCR (Optical Character Recognition) is a machine learning project that utilizes the power of TensorFlow, a popular open-source deep learning library, to recognize and extract text from images or scanned documents. By leveraging advanced neural network architectures, OCR systems can automatically identify and convert printed or handwritten text into machine-readable formats.
+Named Entity Recognition (NER) using SpaCy machine learning is an advanced natural language processing technique that identifies and classifies named entities in text. SpaCy, a popular open-source library, provides a comprehensive framework for developing NER models with machine learning algorithms. By leveraging the power of deep learning and statistical models, SpaCy enables accurate and efficient extraction of named entities, such as person names, locations, organizations, dates, and more, from unstructured text data.
+
+The usage of this repo is to get skills entity texts from images. So in our application, VirtuHire, we need an text extraction from CV upload, and we use this OCR Model to extract text from CV images. The result is not quite good, because of the resource limitation. In normal, we need 36 hours to run the training, so for this capstone we simplified the model and resulting the accuracy is decrease.
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
 
 ## Getting Started
 Here is what you need to be able to run this repo
 
-- Stack 1
-- Stack 2
-- Stack 3
+- Spacy
+- TQDM
+- Locale
+- JSON
 
 ## Installation
-
-How to install : (replace code below)
-
-```bash
-$ git clone https://github.com/your-username/your-repo.git
-$ cd your-repo
-$ npm install
+How to install :
+1. Download the repo
 ```
-
-## Usage
-
-Provide examples and instructions on how to use the project. This can include code snippets or usage scenarios to help users understand the project's functionality. If applicable, provide screenshots or GIFs to visually demonstrate the usage. (replace this)
-
-```javascript
-// Add code examples here
+$ git clone https://github.com/magma-bangkit/VirtuHire-ResumeNER.git
 ```
-
-## Features
-
-Highlight the main features of the project. Enumerate the functionalities and explain how they can be useful to the users. You can also provide a bullet-point list or a table to summarize the features.
-
-- Feature 1
-- Feature 2
-- Feature 3
+2. Upload the notebook to jupyter notebook cloud or google colab. Or you can use your local jupyter notebook.
+3. Open the notebook using jupyter notebook or google colab
+4. Set the dataset folder
+5. Run each cells (make sure already install the packages and libraries)
 
 ## Acknowledgements
 
