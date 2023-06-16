@@ -10,7 +10,7 @@ The usage of this repo is to get skills entity texts from images. So in our appl
 
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Features](#features)
+- [Result](#result)
 - [Acknowledgements](#acknowledgements)
 
 ## Getting Started
@@ -31,6 +31,10 @@ $ git clone https://github.com/magma-bangkit/VirtuHire-ResumeNER.git
 3. Open the notebook using jupyter notebook or google colab
 4. Set the dataset folder
 5. Run each cells (make sure already install the packages and libraries)
+
+## Result
+![resume ner](https://github.com/magma-bangkit/VirtuHire-ResumeNER/assets/70988407/9b286841-bfe1-4a04-bdf9-237e2f9dd78d)
+
 
 ## Acknowledgements
 
